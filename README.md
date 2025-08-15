@@ -69,7 +69,7 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone <your-repository-url>
+    git clone <repository-url>
     ```
 
 2.  **Запустите Docker Compose:**
@@ -111,7 +111,7 @@
 
 6.  **Запустите приложение:**
     ```bash
-    go run ./cmd/main.go
+    go run ./cmd/main.go -config ./../config.ayml
     ```
 
 ## 📖 Документация API
