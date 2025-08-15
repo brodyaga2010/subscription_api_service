@@ -70,7 +70,6 @@
 1.  **Клонируйте репозиторий:**
     ```bash
     git clone <your-repository-url>
-    cd eff_mobile
     ```
 
 2.  **Запустите Docker Compose:**
