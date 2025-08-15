@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: subscription_db
+    environment:
+      POSTGRES_DB: subscription
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d subscription"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  migrate:
+    image: migrate/migrate
+    container_name: subscription_migrate
+    volumes:
+      - ./migrations:/migrations
+    command: ["-path", "/migrations", "-database", "postgres://postgres:123@db:5432/subscription?sslmode=disable", "up"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: on-failure
+
+  api:
+    build: .
+    container_name: subscription_api
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./eff_mobile.log:/app/eff_mobile.log
+    restart: unless-stopped
+
+volumes:
+  db_data:

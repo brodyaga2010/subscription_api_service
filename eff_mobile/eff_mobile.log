@@ -1,0 +1,257 @@
+{"time":"2025-08-14T19:18:40.581298849Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-14T19:18:46.78489108Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//index.html?urls.primaryName=doc.yaml","status":404,"error":"","latency":154838,"latency_human":"154.838µs","bytes_in":0,"bytes_out":19}
+{"time":"2025-08-14T19:18:46.828440358Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/favicon.ico","status":404,"error":"code=404, message=Not Found","latency":59532,"latency_human":"59.532µs","bytes_in":0,"bytes_out":24}
+{"time":"2025-08-14T19:18:55.02335156Z","level":"INFO","remote_ip":"172.18.0.1","host":"127.0.0.1:8080","method":"GET","uri":"/docs//index.html?urls.primaryName=doc.yaml","status":404,"error":"","latency":232622,"latency_human":"232.622µs","bytes_in":0,"bytes_out":19}
+{"time":"2025-08-14T19:18:55.07497043Z","level":"INFO","remote_ip":"172.18.0.1","host":"127.0.0.1:8080","method":"GET","uri":"/favicon.ico","status":404,"error":"code=404, message=Not Found","latency":24975,"latency_human":"24.975µs","bytes_in":0,"bytes_out":24}
+{"time":"2025-08-14T19:20:10.112403779Z","level":"ERROR","prefix":"echo","file":"create.go","line":"28","message":"Failed create row: db query row: ERROR: relation \"subscriptions\" does not exist (SQLSTATE 42P01)"}
+{"time":"2025-08-14T19:20:10.113404404Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":500,"error":"code=500, message={Could not create subscription}","latency":2810654,"latency_human":"2.810654ms","bytes_in":168,"bytes_out":44}
+{"time":"2025-08-14T19:22:22.624479205Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-14T19:23:17.119675297Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-14T19:23:22.796898866Z","level":"ERROR","prefix":"echo","file":"create.go","line":"28","message":"Failed create row: db query row: ERROR: relation \"subscriptions\" does not exist (SQLSTATE 42P01)"}
+{"time":"2025-08-14T19:23:22.79774124Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":500,"error":"code=500, message={Could not create subscription}","latency":1871381,"latency_human":"1.871381ms","bytes_in":168,"bytes_out":44}
+{"time":"2025-08-14T19:23:39.989606324Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-14T19:27:17.808154346Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-14T19:27:26.757866683Z","level":"ERROR","prefix":"echo","file":"create.go","line":"28","message":"Failed create row: db query row: ERROR: relation \"subscriptions\" does not exist (SQLSTATE 42P01)"}
+{"time":"2025-08-14T19:27:26.758499538Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":500,"error":"code=500, message={Could not create subscription}","latency":1870723,"latency_human":"1.870723ms","bytes_in":168,"bytes_out":44}
+{"time":"2025-08-14T19:30:30.214877288Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-14T19:32:20.746485299Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-14T19:32:29.980670222Z","level":"ERROR","prefix":"echo","file":"create.go","line":"28","message":"Failed create row: db query row: ERROR: relation \"subscriptions\" does not exist (SQLSTATE 42P01)"}
+{"time":"2025-08-14T19:32:29.985733241Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":500,"error":"code=500, message={Could not create subscription}","latency":6092450,"latency_human":"6.09245ms","bytes_in":168,"bytes_out":44}
+{"time":"2025-08-14T19:32:41.578417331Z","level":"ERROR","prefix":"echo","file":"list.go","line":"21","message":"Failed get list subscriptions: db query: ERROR: relation \"subscriptions\" does not exist (SQLSTATE 42P01)"}
+{"time":"2025-08-14T19:32:41.578884697Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":500,"error":"","latency":1225562,"latency_human":"1.225562ms","bytes_in":0,"bytes_out":43}
+{"time":"2025-08-14T19:34:11.144835559Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+{"time":"2025-08-15T06:27:30.15879954Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T06:29:16.594644947Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+{"time":"2025-08-15T06:31:48.651174691Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T06:32:07.926697614Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":1694617,"latency_human":"1.694617ms","bytes_in":0,"bytes_out":5}
+{"time":"2025-08-15T06:32:14.026462948Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":9668856,"latency_human":"9.668856ms","bytes_in":168,"bytes_out":2}
+{"time":"2025-08-15T06:32:47.479670839Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":814084,"latency_human":"814.084µs","bytes_in":0,"bytes_out":167}
+{"time":"2025-08-15T06:33:34.213882862Z","level":"INFO","remote_ip":"172.18.0.1","host":"127.0.0.1:8080","method":"GET","uri":"/docs//index.html?urls.primaryName=doc.yaml","status":404,"error":"","latency":1133957,"latency_human":"1.133957ms","bytes_in":0,"bytes_out":19}
+{"time":"2025-08-15T06:33:48.321352266Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//index.html","status":200,"error":"","latency":464372,"latency_human":"464.372µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T06:33:48.346846648Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui.css","status":200,"error":"","latency":1505707,"latency_human":"1.505707ms","bytes_in":0,"bytes_out":152072}
+{"time":"2025-08-15T06:33:48.354574653Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-bundle.js","status":200,"error":"","latency":9148760,"latency_human":"9.14876ms","bytes_in":0,"bytes_out":1426050}
+{"time":"2025-08-15T06:33:48.360349562Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-standalone-preset.js","status":200,"error":"","latency":1180014,"latency_human":"1.180014ms","bytes_in":0,"bytes_out":230007}
+{"time":"2025-08-15T06:33:48.510409191Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//doc.json","status":200,"error":"","latency":499547,"latency_human":"499.547µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T06:33:48.603480798Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//favicon-32x32.png","status":200,"error":"","latency":259935,"latency_human":"259.935µs","bytes_in":0,"bytes_out":628}
+{"time":"2025-08-15T06:34:00.969349039Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/1","status":200,"error":"","latency":1383502,"latency_human":"1.383502ms","bytes_in":0,"bytes_out":165}
+{"time":"2025-08-15T06:34:54.244363626Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":13064637,"latency_human":"13.064637ms","bytes_in":145,"bytes_out":2}
+{"time":"2025-08-15T06:35:08.720924506Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"PUT","uri":"/subscriptions/2","status":200,"error":"","latency":6213032,"latency_human":"6.213032ms","bytes_in":145,"bytes_out":132}
+{"time":"2025-08-15T06:35:29.004255404Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/2","status":204,"error":"","latency":6389820,"latency_human":"6.38982ms","bytes_in":145,"bytes_out":0}
+{"time":"2025-08-15T06:35:54.236278169Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/2","status":204,"error":"","latency":750664,"latency_human":"750.664µs","bytes_in":145,"bytes_out":0}
+{"time":"2025-08-15T06:49:11.706496323Z","level":"ERROR","prefix":"echo","file":"calc_amount.go","line":"32","message":"Failed to calculate amount:invalid 'from' date format: parsing time \"\" as \"01-2006\": cannot parse \"\" as \"01\""}
+{"time":"2025-08-15T06:49:11.706876264Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67","status":500,"error":"code=500, message={Failed to calculate amount}","latency":554159,"latency_human":"554.159µs","bytes_in":0,"bytes_out":41}
+{"time":"2025-08-15T06:50:29.950209574Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=07-2025&to=08-2025","status":200,"error":"","latency":13501803,"latency_human":"13.501803ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:50:35.643121825Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=08-2025","status":200,"error":"","latency":1001286,"latency_human":"1.001286ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:50:46.940024863Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":12436978,"latency_human":"12.436978ms","bytes_in":145,"bytes_out":2}
+{"time":"2025-08-15T06:50:58.356472101Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":12594698,"latency_human":"12.594698ms","bytes_in":169,"bytes_out":2}
+{"time":"2025-08-15T06:51:03.189080551Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=08-2025","status":200,"error":"","latency":737851,"latency_human":"737.851µs","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:51:10.070405637Z","level":"ERROR","prefix":"echo","file":"calc_amount.go","line":"32","message":"Failed to calculate amount:invalid 'to' date format: parsing time \"\" as \"01-2006\": cannot parse \"\" as \"01\""}
+{"time":"2025-08-15T06:51:10.070772162Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025","status":500,"error":"code=500, message={Failed to calculate amount}","latency":442559,"latency_human":"442.559µs","bytes_in":0,"bytes_out":41}
+{"time":"2025-08-15T06:51:13.845420302Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=07-2025&to=08-2025","status":200,"error":"","latency":916287,"latency_human":"916.287µs","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:52:48.925078392Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=07-2025&to=08-2025","status":200,"error":"","latency":940390,"latency_human":"940.39µs","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:53:28.827312696Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=10-2025&service_name=Packet","status":200,"error":"","latency":1210551,"latency_human":"1.210551ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:53:36.113237801Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=10-2025&service_name=Packet3","status":200,"error":"","latency":642510,"latency_human":"642.51µs","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T06:53:38.779940229Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=10-2025&service_name=Packet32","status":200,"error":"","latency":765928,"latency_human":"765.928µs","bytes_in":0,"bytes_out":12}
+{"time":"2025-08-15T06:58:01.596517031Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T06:59:16.339031273Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T06:59:27.031090329Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//index.html","status":200,"error":"","latency":352018,"latency_human":"352.018µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T06:59:27.048166636Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui.css","status":200,"error":"","latency":270856,"latency_human":"270.856µs","bytes_in":0,"bytes_out":152072}
+{"time":"2025-08-15T06:59:27.052171912Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-bundle.js","status":200,"error":"","latency":3553527,"latency_human":"3.553527ms","bytes_in":0,"bytes_out":1426050}
+{"time":"2025-08-15T06:59:27.063501961Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-standalone-preset.js","status":200,"error":"","latency":481174,"latency_human":"481.174µs","bytes_in":0,"bytes_out":230007}
+{"time":"2025-08-15T06:59:27.245532554Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//favicon-32x32.png","status":200,"error":"","latency":167773,"latency_human":"167.773µs","bytes_in":0,"bytes_out":628}
+{"time":"2025-08-15T06:59:27.255476955Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//doc.json","status":200,"error":"","latency":10189719,"latency_human":"10.189719ms","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T07:00:19.699843349Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T07:00:32.770122085Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:00:38.642540208Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//index.html","status":200,"error":"","latency":404764,"latency_human":"404.764µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T07:00:38.659748209Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui.css","status":200,"error":"","latency":337803,"latency_human":"337.803µs","bytes_in":0,"bytes_out":152072}
+{"time":"2025-08-15T07:00:38.66992457Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-standalone-preset.js","status":200,"error":"","latency":517904,"latency_human":"517.904µs","bytes_in":0,"bytes_out":230007}
+{"time":"2025-08-15T07:00:38.67034847Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-bundle.js","status":200,"error":"","latency":2367488,"latency_human":"2.367488ms","bytes_in":0,"bytes_out":1426050}
+{"time":"2025-08-15T07:00:38.942094038Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//favicon-32x32.png","status":200,"error":"","latency":163609,"latency_human":"163.609µs","bytes_in":0,"bytes_out":628}
+{"time":"2025-08-15T07:00:38.980635534Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//doc.json","status":200,"error":"","latency":268188,"latency_human":"268.188µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T07:00:43.283507793Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T07:01:49.366695019Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:01:53.105685617Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//index.html","status":200,"error":"","latency":516523,"latency_human":"516.523µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T07:01:53.117580693Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui.css","status":200,"error":"","latency":731486,"latency_human":"731.486µs","bytes_in":0,"bytes_out":152072}
+{"time":"2025-08-15T07:01:53.1194027Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-bundle.js","status":200,"error":"","latency":2458012,"latency_human":"2.458012ms","bytes_in":0,"bytes_out":1426050}
+{"time":"2025-08-15T07:01:53.120467084Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//swagger-ui-standalone-preset.js","status":200,"error":"","latency":671756,"latency_human":"671.756µs","bytes_in":0,"bytes_out":230007}
+{"time":"2025-08-15T07:01:53.204213689Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//favicon-32x32.png","status":200,"error":"","latency":174825,"latency_human":"174.825µs","bytes_in":0,"bytes_out":628}
+{"time":"2025-08-15T07:01:53.204349305Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/docs//doc.json","status":200,"error":"","latency":242433,"latency_human":"242.433µs","bytes_in":0,"bytes_out":0}
+{"time":"2025-08-15T07:02:22.854850659Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=07-2025&to=10-2025&service_name=Packet32","status":200,"error":"","latency":12659416,"latency_human":"12.659416ms","bytes_in":0,"bytes_out":12}
+{"time":"2025-08-15T07:02:29.047963691Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/4","status":200,"error":"","latency":2127567,"latency_human":"2.127567ms","bytes_in":169,"bytes_out":166}
+{"time":"2025-08-15T07:02:33.168441502Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/6","status":404,"error":"code=404, message={Subscription not found}","latency":1014548,"latency_human":"1.014548ms","bytes_in":169,"bytes_out":37}
+{"time":"2025-08-15T07:02:39.414033415Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/5","status":404,"error":"code=404, message={Subscription not found}","latency":721004,"latency_human":"721.004µs","bytes_in":169,"bytes_out":37}
+{"time":"2025-08-15T07:02:41.996809688Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/4","status":200,"error":"","latency":1096647,"latency_human":"1.096647ms","bytes_in":169,"bytes_out":166}
+{"time":"2025-08-15T07:02:46.245029337Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/","status":404,"error":"code=404, message=Not Found","latency":38668,"latency_human":"38.668µs","bytes_in":169,"bytes_out":24}
+{"time":"2025-08-15T07:02:54.449139066Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":1032288,"latency_human":"1.032288ms","bytes_in":169,"bytes_out":465}
+{"time":"2025-08-15T07:03:22.405588182Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=07-2025&to=10-2025&service_name=Packet32","status":200,"error":"","latency":1371698,"latency_human":"1.371698ms","bytes_in":0,"bytes_out":12}
+{"time":"2025-08-15T07:03:25.569418289Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=07-2025&to=10-2025","status":200,"error":"","latency":1037791,"latency_human":"1.037791ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T07:04:19.24828419Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T07:04:55.324802558Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:11:29.373322572Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"PUT","uri":"/subscriptions/4","status":200,"error":"","latency":14856413,"latency_human":"14.856413ms","bytes_in":141,"bytes_out":132}
+{"time":"2025-08-15T07:13:45.49246838Z","level":"ERROR","prefix":"echo","file":"calc_amount.go","line":"32","message":"Failed to calculate amount:'to' date cannot be before 'from' date"}
+{"time":"2025-08-15T07:13:45.492745172Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=12-2025&to=10-2025","status":500,"error":"code=500, message={Failed to calculate amount}","latency":1678195,"latency_human":"1.678195ms","bytes_in":0,"bytes_out":41}
+{"time":"2025-08-15T07:30:42.202753487Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T07:30:49.671336039Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:30:59.583511997Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=12-2025&to=10-2025","status":400,"error":"code=400, message={'To' date cannot be before 'From' date}","latency":59665,"latency_human":"59.665µs","bytes_in":0,"bytes_out":53}
+{"time":"2025-08-15T07:31:06.318780871Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025&to=10-2025","status":200,"error":"","latency":6782393,"latency_human":"6.782393ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T07:31:15.000727378Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025-09&to=10-2025","status":400,"error":"code=400, message={Invalid date format}","latency":44302,"latency_human":"44.302µs","bytes_in":0,"bytes_out":34}
+{"time":"2025-08-15T07:31:45.654678383Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025-09","status":400,"error":"code=400, message={From and To dates must be provided}","latency":42758,"latency_human":"42.758µs","bytes_in":0,"bytes_out":49}
+{"time":"2025-08-15T07:36:04.230002642Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+{"time":"2025-08-15T07:36:06.316153871Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:36:49.16796557Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025-09&to=10-2025","status":400,"error":"code=400, message={Date format is incorrect, expected 'MM-YYYY'}","latency":73344,"latency_human":"73.344µs","bytes_in":0,"bytes_out":59}
+{"time":"2025-08-15T07:36:54.127076849Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025&to=10-2025","status":200,"error":"","latency":1668928,"latency_human":"1.668928ms","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T07:36:58.161621121Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025&to=10-2024","status":400,"error":"code=400, message={'To' date cannot be before 'From' date}","latency":45190,"latency_human":"45.19µs","bytes_in":0,"bytes_out":53}
+{"time":"2025-08-15T07:37:03.417905106Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?user_id=6565ec05-168c-42e8-914f-d274998a7a67&from=01-2025&to=10-2025","status":200,"error":"","latency":770686,"latency_human":"770.686µs","bytes_in":0,"bytes_out":15}
+{"time":"2025-08-15T07:37:07.39432663Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"PUT","uri":"/subscriptions/4","status":200,"error":"","latency":6143265,"latency_human":"6.143265ms","bytes_in":169,"bytes_out":166}
+{"time":"2025-08-15T07:37:14.408806611Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":1048480,"latency_human":"1.04848ms","bytes_in":169,"bytes_out":465}
+{"time":"2025-08-15T07:37:27.371562449Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/1","status":200,"error":"","latency":1348531,"latency_human":"1.348531ms","bytes_in":169,"bytes_out":165}
+{"time":"2025-08-15T07:37:31.139001891Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/123","status":404,"error":"code=404, message={Subscription not found}","latency":738878,"latency_human":"738.878µs","bytes_in":169,"bytes_out":37}
+{"time":"2025-08-15T07:37:53.944624879Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/45","status":204,"error":"","latency":1555600,"latency_human":"1.5556ms","bytes_in":169,"bytes_out":0}
+{"time":"2025-08-15T07:39:10.168349032Z","level":"ERROR","prefix":"echo","file":"delete.go","line":"32","message":"Failed delete subscription: db exec delete: failed to encode args[0]: unable to encode 4524234234234234234 into binary format for int4 (OID 23): 4524234234234234234 is greater than maximum value for int4"}
+{"time":"2025-08-15T07:39:10.168744283Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/4524234234234234234","status":500,"error":"code=500, message={Could not delete subscription}","latency":1066570,"latency_human":"1.06657ms","bytes_in":169,"bytes_out":44}
+{"time":"2025-08-15T07:39:13.677666948Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/45242342","status":204,"error":"","latency":987953,"latency_human":"987.953µs","bytes_in":169,"bytes_out":0}
+{"time":"2025-08-15T07:41:32.102717644Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":14583231,"latency_human":"14.583231ms","bytes_in":170,"bytes_out":9}
+{"time":"2025-08-15T07:45:48.300638287Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
+{"time":"2025-08-15T07:45:50.509661461Z","level":"INFO","prefix":"echo","file":"handler.go","line":"68","message":"Server started on 0.0.0.0:8080"}
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.13.4
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8080
+{"time":"2025-08-15T07:46:54.423550341Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":2298684,"latency_human":"2.298684ms","bytes_in":170,"bytes_out":632}
+{"time":"2025-08-15T07:47:03.103584987Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"DELETE","uri":"/subscriptions/45454","status":404,"error":"code=404, message={Subscription not found}","latency":1403845,"latency_human":"1.403845ms","bytes_in":170,"bytes_out":37}
+{"time":"2025-08-15T07:47:12.10781961Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"PUT","uri":"/subscriptions/45454","status":404,"error":"code=404, message={Subscription not found}","latency":1451852,"latency_human":"1.451852ms","bytes_in":170,"bytes_out":37}
+{"time":"2025-08-15T07:48:06.493339715Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"POST","uri":"/subscriptions","status":201,"error":"","latency":7158036,"latency_human":"7.158036ms","bytes_in":167,"bytes_out":9}
+{"time":"2025-08-15T07:48:16.583839732Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions","status":200,"error":"","latency":766544,"latency_human":"766.544µs","bytes_in":167,"bytes_out":796}
+{"time":"2025-08-15T07:48:36.123522749Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/6","status":200,"error":"","latency":1177946,"latency_human":"1.177946ms","bytes_in":167,"bytes_out":164}
+{"time":"2025-08-15T07:48:38.819077455Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/634","status":404,"error":"code=404, message={Subscription not found}","latency":774198,"latency_human":"774.198µs","bytes_in":167,"bytes_out":37}
+{"time":"2025-08-15T07:48:41.163066866Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/6","status":200,"error":"","latency":880919,"latency_human":"880.919µs","bytes_in":167,"bytes_out":164}
+{"time":"2025-08-15T07:48:54.720400238Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=01-2025&to=10-2025","status":200,"error":"","latency":1732261,"latency_human":"1.732261ms","bytes_in":0,"bytes_out":16}
+{"time":"2025-08-15T07:48:59.772122212Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"GET","uri":"/subscriptions/sum?from=01-2025","status":400,"error":"code=400, message={From and To dates must be provided}","latency":35657,"latency_human":"35.657µs","bytes_in":0,"bytes_out":49}
+{"time":"2025-08-15T07:49:48.212532965Z","level":"INFO","remote_ip":"172.18.0.1","host":"localhost:8080","method":"PUT","uri":"/subscriptions/6","status":200,"error":"","latency":4945309,"latency_human":"4.945309ms","bytes_in":172,"bytes_out":169}
+{"time":"2025-08-15T07:50:00.105598824Z","level":"INFO","prefix":"echo","file":"handler.go","line":"85","message":"Server stopped"}
